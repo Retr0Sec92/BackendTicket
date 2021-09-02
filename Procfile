@@ -1,1 +1,1 @@
-web: java -jar target/spring-boot-nuxt.jar
+web: java $JAVA_OPTS -jar -Dserver.port=$PORT target/spring-boot-nuxt.jar
